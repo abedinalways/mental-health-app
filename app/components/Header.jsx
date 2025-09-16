@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="border-1 border-gray-200 flex justify-between px-5 py-2 md:justify-around items-center md:mx-[383px] my-3  md:py-1.5 md:gap-20 text-black bg-[#FAFAFAD6] rounded-sm">
+    <nav className="border-1 border-gray-200 flex justify-between  py-3 md:justify-around items-center md:mx-[383px] my-3  md:py-1.5 md:gap-20 text-black bg-[#FAFAFAD6] rounded-sm sticky top-2 z-200">
       <h1 className="font-extrabold text-lg md:ml-4">ZUNO</h1>
       <ul className="md:flex hidden md:gap-8 md:ml-20">
         <Link href="#">
@@ -17,9 +17,9 @@ const Header = () => {
           <li>Template</li>
         </Link>
       </ul>
-      <button className="bg-[#D2F0A3] md:w-[142px] md:h-[42px] md:p-[10px 18px] rounded-md md:ml-20 hidden md:block">
+      <span className="bg-[#D2F0A3] hover:bg-[#92a870] rounded-md md:ml-12 px-2 mx-2 py-2 hidden md:block">
         Request Demo
-      </button>
+      </span>
       <div className="md:hidden">
         <Menu className="h-6 w-6" />
       </div>
