@@ -30,7 +30,7 @@ const ScrollGridHero = () => {
       height: '20%',
     },
     {
-      src: '/images/img02.png',
+      src: '/images/img06.png',
       top: '0%',
       left: '30%',
       width: '40%',
